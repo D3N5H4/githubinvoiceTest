@@ -344,7 +344,7 @@
                     const tdTax = document.createElement('td'); tdTax.className = 'small'; tdTax.textContent = (inv.tax || '0') + ' %';
                     const tdTot = document.createElement('td');
                     tdTot.className = 'small';
-                    tdTot.innerHTML = `<strong>Bs ${moneyFmt(inv.total)}</strong>`;
+                    tdTot.innerHTML = 'Bs'+ `<strong>${moneyFmt(inv.total)}</strong>`;
                     const tdAcc = document.createElement('td');
 
 
